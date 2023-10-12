@@ -1,0 +1,1 @@
+CREATE TABLE `assignment`.`assign1` (`id` INT NOT NULL AUTO_INCREMENT , `fname` VARCHAR(255) NOT NULL , `lname` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `phone` VARCHAR(255) NOT NULL , `novelty` BOOLEAN NOT NULL , `discounts` BOOLEAN NOT NULL , `workshops` BOOLEAN NOT NULL , `fairs` BOOLEAN NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
